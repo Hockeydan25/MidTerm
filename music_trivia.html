@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Triva Quiz Game </title>
+<!-- setting styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="music_trivia.css">
+  <!-- link to our other pages for this program -->
+  <script async defer src="music_trivia.js"></script>
+
+</head>
+
+ <!--  -->
+ 
+<body>
+
+  <div class="main content m-4 center-block">
+    <div class="jumbotron">
+    <h1>Music Trivia Quiz Game</h1><a url="musicNotesR.png"></a>
+    </div>  
+
+    <p>Welcome, try your luck at my fun Music Trivia Quiz Game</p>
+
+    <h3 id="music-question">Music Question Here</h3>
+
+    <div class="user-input mb-3">
+      <!--here input box is setup with id, type and textbox placeholder displayed message in the box for user to read short instruction -->
+      <input type="text" id="user-answer" class="form-control" placeholder="Type your answer here" aria-label="answer" aria-roledescription="submit-answer" >
+      <div class="user-input-append">
+        <button class="btn btn-outline-secondary" type="button" id="submitt-button">Submit Your guess</button>
+      </div>
+
+    </div>
+    <h3 id="answer"> correct answer:______</h3>
+
+    <button id="next-question-button">Load Question</button>
+    <br>
+    <label>True or False:</labels>
+      <br>
+      <input id="true-choice" name="media-choice" type="radio">
+      <label for="true-choice">True</label> 
+      <br>
+      <input id="false-choice" name="media-choice" type="radio">
+      <label for="false-choice">False</label> 
+
+  </div>    
+
+  <!-- need to recopy the actulual site this is my data api -->
+  <cite>Data from <a href="https://opentdb.com/api.php?amount=5&category=12&difficulty=easy&type=boolean">Quiz Game Generator Web Site</a></cite>
+
+<!-- end of html frame work.-->
+</body>
+</html>
