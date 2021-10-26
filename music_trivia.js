@@ -1,7 +1,7 @@
 let triviaQuestion = document.querySelector('#music-question')
-let userAnswer = document.querySelector('#user-answer')
+let userSelection = document.querySelector('#user-answer')
 let submitButton = document.querySelector('#submit-button')
-let nextQuestion = document.querySelector('#next-question-button')
+let loadNextButton = document.querySelector('#next-question-button')
 let trueChoice = document.querySelector('#true-choice')
 let falseChoice = document.querySelector('#false-choice')
 let correctAnswer = document.querySelector('#answer')
@@ -13,8 +13,6 @@ let questionAndAnswerApi = `https://opentdb.com/api.php?amount=5&category=12&dif
 
 
 // }
-
-
 // document.addEventListener('keyup', function() {
 //     if (event.keyCode == 13 || event.key == 'Enter'){    //if statment for eventlistener to take action on if true.
 //         submitButton.click() //this is the action the enter button takes, cuases a button click function.
@@ -33,3 +31,14 @@ fetch(questionAndAnswerApi)
 
 
     })    
+// submitButton.addEventListener('click', function() {
+    
+    
+    
+// } )
+
+// loadNextButton.addEventListener('click', function() {
+
+    //.toggle("selected")
+// })
+

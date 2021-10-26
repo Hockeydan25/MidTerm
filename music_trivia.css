@@ -22,3 +22,6 @@ body{
     color: rgb(44, 25, 22);
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
+#true-choice{
+    font-size: larger;
+}
