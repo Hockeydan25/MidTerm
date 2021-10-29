@@ -19,11 +19,15 @@ body{
     
 }
 .jumbotron{
-    background-color: #494779
+    background-color: #5b5a88
     ;
     color: rgb(44, 25, 22);
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
-#true-choice{
+.true-choice{
     font-size: larger;
+}
+
+#web-cite{
+    padding: auto;
 }
