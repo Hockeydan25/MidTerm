@@ -16,25 +16,27 @@
 <body>
 
   <div class="main content m-4 center-block">
-    <div class="jumbotron">
+    <div class="jumbotron"> <!--staring of divison for page title of the game with music note png file.-->
       <h1><img src="musicNotesR.png" alt="a string of music notes" > Music <img src="musicNotesR.png" alt="a string of music notes" >Trivia <img src="musicNotesR.png" alt="a string of music notes" >
       Quiz <img src="musicNotesR.png" alt="a string of music notes" > Game <img src="musicNotesR.png" alt="a string of music notes" ></h1>
-    </div>  
-
-    <p>Welcome, try your luck at my fun Music Trivia Quiz Game</p>
-
+    </div>  <!--end of jumbo divison-->
+            <!--paragrph message to introduce game display simple message.  -->
+    <p>Welcome! Please try your luck at my fun Music Trivia Quiz Game.</p>
+    
     <h3 id="music-question">Music Question Here</h3>
 
     <div class="user-input mb-3">
       <!--here input box is setup with id, type and textbox placeholder displayed message in the box for user to read short instruction -->
-      <br>
-      <label>True or False:</labels>
+      <br> 
+      <!-- breal  -->
+      <label class="choice">True or False:</label>
       <br>  
-      <input id="true-choice" name="users-answer" type="radio">
-      <label for="true-choice">True</label> 
+      <input id="true-choice" name="users-answer" type="radio" >
+      <label for="true-choice" class="t-choice">True</label> 
       <br>
       <input id="false-choice" name="users-answer" type="radio">
-      <label for="false-choice">False</label> 
+      <label for="false-choice" class="f-choice">False</label> 
+      <br>
       <br>
       <button class="btn btn-outline-secondary" type="button" id="submit-button">Submit your answer</button>
       
@@ -46,7 +48,9 @@
   </div>    
 
   <!-- site referance credit for using there API  -->
-  <cite class="web-cite">Data from <a href="https://opentdb.com/api_config.php">Quiz Game Generator Web Site</a></cite>
+  <div class="m-2">
+  <cite>Data from <a href="https://opentdb.com/api_config.php">Quiz Game Generator Web Site</a></cite>
+  </div>
 
 <!-- end of html frame work.-->
 </body>

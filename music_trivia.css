@@ -1,33 +1,60 @@
 body{
     background-color: #978F9F
-    
-    ;
+     
 }
 
-.m-4{
-    background-color: #B5866A;
-    /* padding-right: 5px */
-    ;
-        
-}
-
-#submitt-button{
-    background-color: #E27231;
-    font-size: x-large;
-    font:  color #F4F4F4;
-    font-style: normal;
-    
-}
 .jumbotron{
     background-color: #5b5a88
     ;
     color: rgb(44, 25, 22);
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
-.true-choice{
+
+p{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: large;
+}
+.m-4{
+    background-color: #B5866A;
+    
+    
+        
+}
+
+.choice{
+    font-weight: bold;
     font-size: larger;
 }
 
-#web-cite{
-    padding: auto;
+.t-choice{
+    font-style: italic;
+        font-weight: 600;
+    }
+    
+    .f-choice{
+        font-style: italic;
+        font-weight: 600;
+    }
+
+#submit-button{
+    background-color: #E27231;
+    font-size: x-large;
+    font:  color #F4F4F4;
+    font-style: normal;
+    
 }
+
+#next-question-button{
+    background-color: #f3610c;
+    font:  color #F4F4F4;
+    font-style: normal;
+    font-weight: 550;
+
+}
+
+.m-2{
+    font-weight: bold;
+    padding-left: 20px ;
+}
+
+
