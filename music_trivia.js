@@ -57,12 +57,12 @@ submitButton.addEventListener('click', function() {
         submitButton.disabled = true //makesure once a selection is made we can move the process along 
         //vaildatin the choice made with these these if and else statements
     if(checkTrue == true && currentQuestion.correct_answer == "True") {//true radio button is checked
-        correctAnswer.innerHTML = `You are correct  the answer is: ${currentQuestion.correct_answer}, Great job! Play Agin?`
+        correctAnswer.innerHTML = `You are correct  the answer is: ${currentQuestion.correct_answer}, Great job! Play Again?`
           //console.log(t)
     }else if(checkFalse == true && currentQuestion.correct_answer == "False") {//Falseradio button is checked
-            correctAnswer.innerHTML = `You are correct that is the correct: ${currentQuestion.correct_answer}, Great job! Play Agin?`
+            correctAnswer.innerHTML = `You are correct that is the correct: ${currentQuestion.correct_answer}, Great job! Play Again?`
     }else{ 
-        correctAnswer.innerHTML = `Sorry, that was not the correct answer, the Correct answer is: ${currentQuestion.correct_answer}, please play again!`
+        correctAnswer.innerHTML = `Sorry, that was not the correct answer, the Correct answer is: ${currentQuestion.correct_answer}, please play Again!`
       }     //message to user vaildates correct or not and has them play again.
 })
 //getting a new question reloaded. Simple way to restart page and new quiestion is load and button is enables again.
