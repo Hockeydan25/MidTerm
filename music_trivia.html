@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Music Triva Quiz Game </title>
-<!-- setting styling -->
+<!-- setting styling using link to bootstrap style -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="music_trivia.css">
   <!-- link to our other pages for this program -->
@@ -14,7 +14,7 @@
  <!--  -->
  
 <body>
-
+  <!-- creating blcok for game main div frame -->
   <div class="main content m-4 center-block">
     <div class="jumbotron"> <!--staring of divison for page title of the game with music note png file.-->
       <h1><img src="musicNotesR.png" alt="a string of music notes" > Music <img src="musicNotesR.png" alt="a string of music notes" >Trivia <img src="musicNotesR.png" alt="a string of music notes" >
@@ -22,33 +22,33 @@
     </div>  <!--end of jumbo divison-->
             <!--paragrph message to introduce game display simple message.  -->
     <p>Welcome! Please try your luck at my fun Music Trivia Quiz Game.</p>
-    
+    <!-- place where our question gets linkto from .js page questions pop here. -->
     <h3 id="music-question">Music Question Here</h3>
 
     <div class="user-input mb-3">
       <!--here input box is setup with id, type and textbox placeholder displayed message in the box for user to read short instruction -->
       <br> 
-      <!-- breal  -->
+      <!-- breaK  and laberl for the true false buttons -->
       <label class="choice">True or False:</label>
-      <br>  
+      <br>  <!--builds a radio button on page labels used to tag what they are used for-->
       <input id="true-choice" name="users-answer" type="radio" >
       <label for="true-choice" class="t-choice">True</label> 
-      <br>
+      <br><!--builds a radio button on page labels used to tag what they are used for-->
       <input id="false-choice" name="users-answer" type="radio">
       <label for="false-choice" class="f-choice">False</label> 
       <br>
-      <br>
+      <br>  <!-- break for spacing and button fo submitt answer -->
       <button class="btn btn-outline-secondary" type="button" id="submit-button">Submit your answer</button>
       
-    </div>
+    </div> <!-- dipslay note where answert is going when question answered by user-->
     <h3 id="answer">Answer TRUE or FALSE:______</h3>
-    <br>
+    <br><!--break here and button to load a new question to play-->
     <button id="next-question-button">Load New Question</button>
     
   </div>    
 
   <!-- site referance credit for using there API  -->
-  <div class="m-2">
+  <div class="m-2"> <!--created claas to style indentaion -->
   <cite>Data from <a href="https://opentdb.com/api_config.php">Quiz Game Generator Web Site</a></cite>
   </div>
 
